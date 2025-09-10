@@ -1,1 +1,37 @@
 /*  your css code here. If applicable */
+ body{
+            height:100vh;
+            width:100vw;
+            margin:0;
+            padding:0;
+            align-content: center;
+        }
+        .container{
+            height:65%;
+            width:100%;
+            background-color:#A164DF;
+            display: flex;
+            flex-wrap:wrap;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .btn{
+            height: 100px;
+            width:190px;
+            background-color: #663399;
+            color:white;
+            font-size:1.5rem;
+            cursor: pointer;
+            border:none;
+            border-radius:10px;
+        }
+        .stop{
+            height: 100px;
+            width:190px;
+            background-color: #663399;
+            color:white;
+            font-size:1.5rem;
+            cursor: pointer;
+            border:none;
+            border-radius:10px;
+        }

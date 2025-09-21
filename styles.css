@@ -1,37 +1,40 @@
-/*  your css code here. If applicable */
- body{
-            height:100vh;
-            width:100vw;
-            margin:0;
-            padding:0;
-            align-content: center;
-        }
-        .container{
-            height:65%;
-            width:100%;
-            background-color:#A164DF;
-            display: flex;
-            flex-wrap:wrap;
-            justify-content: space-around;
-            align-items: center;
-        }
-        .btn{
-            height: 100px;
-            width:190px;
-            background-color: #663399;
-            color:white;
-            font-size:1.5rem;
-            cursor: pointer;
-            border:none;
-            border-radius:10px;
-        }
-        .stop{
-            height: 100px;
-            width:190px;
-            background-color: #663399;
-            color:white;
-            font-size:1.5rem;
-            cursor: pointer;
-            border:none;
-            border-radius:10px;
-        }
+body{
+	margin:0;
+	padding:0;
+	height:100vh;
+	width:100vw;
+}
+.container{
+	background-color:#A164DF;
+	width:100%;
+	height:50%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+#buttons{
+	width:100%;
+	display:flex;
+	justify-content:space-around;
+	gap:10px;
+}
+.btn{
+	background-color:#663399;
+	width:150px;
+	height:70px;
+	color:white;
+	border:none;
+	border-radius:10px;
+	cursor:pointer;
+	font-size:1.1rem;
+}
+.stop{
+	background-color:#663399;
+	width:150px;
+	height:70px;
+	color:white;
+	border:none;
+	border-radius:10px;
+	cursor:pointer;
+	font-size:1.1rem;
+}

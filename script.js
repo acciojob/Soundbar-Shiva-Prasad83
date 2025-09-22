@@ -24,8 +24,9 @@ function addEvent(btn){
 	btn.addEventListener("click",(e)=>{
 		//let audio=new Audio("https://www.learningcontainer.com/wp-content/uploads/2020/02/Kalimba.mp3");
 		let audio=document.createElement("audio");
-		audio.src=`./sounds/${btn.innerText}`;
+		audio.src=`./sounds/${btn.innerText}.mp3`;
 		audio.id=`audio-${btn.innerText}`;
+		audio.setAttribute("preload","auto");
 		audios[btn.innerText]=audio;
 		stopAudios();
 		audio.play();
